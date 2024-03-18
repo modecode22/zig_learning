@@ -2,7 +2,7 @@ const std = @import("std");
 const print = @import("std").debug.print;
 const os = std.os;
 const assert = std.debug.assert;
-
+// ref: https://ziglang.org/documentation/0.11.0/#Values
 pub fn main() !void {
     print("Hello, world!\n", .{});
     const stdout = std.io.getStdOut().writer();
